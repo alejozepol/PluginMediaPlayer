@@ -1,0 +1,21 @@
+{
+  "name": "@alejozepol/MediaPlayer",
+  "version": "1.0.0",
+  "description": "Plugin para reproduccion automatica y ads en el video",
+  "main": "lib/MediaPlayer.js",
+  "scripts": {
+    "build": "tsc src/**/*.ts src/plugins/*.ts src/plugins/**/*.ts --outDir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "platzi",
+    "reproductor",
+    "ads"
+  ],
+  "author": "Alejandro López Ramírez <alejozepol@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {}
+}
